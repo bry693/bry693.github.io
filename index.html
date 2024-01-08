@@ -11,18 +11,46 @@ h1  {color: black; font-family:serif; text-align:center;}
 h2  {font-family:Verdana; text-align: center;}
 p1  {font-family:Verdana; text-align: center;}
 a   {font-family:Verdana; text-align: center;}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 </style>
 </head>
 <body>
 <h1> 
 Bryanna Hernandez
 </h1>
-<nav>
-<a href="https://www.linkedin.com/in/bryanna-hernandez/">LinkedIn.</a>
+<div class="topnav">
+<a class="active" url(./index.html)>Home</a>
+<a href="https://www.linkedin.com/in/bryanna-hernandez/">LinkedIn</a>
 <a href="https://www.youtube.com/watch?v=F6CkLk_ioRk">Writing</a>
 <a href="https://www.youtube.com/watch?v=F6CkLk_ioRk">Programming</a>
-<a href="mailto:bhernandez2@oxy.edu">Contact me directly.</a>
-</nav>
+<a href="mailto:bhernandez2@oxy.edu">Contact</a>
+</div>
 <h2> 
 About Me
 </h2>
