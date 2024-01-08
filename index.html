@@ -10,7 +10,7 @@ body
 h1  {color: black; font-family:serif; text-align:center;}
 h2  {font-family:Verdana; text-align: center;}
 p1  {font-family:Verdana; text-align: center;}
-p2  {padding: 400px;}
+p2  {padding: 450px;}
 a   {font-family:Verdana; text-align: center;}
 
 .object{width: 50%;}
@@ -34,6 +34,20 @@ a   {font-family:Verdana; text-align: center;}
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.topnav a.topsticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.object a.bottomsticky {
+  position: fixed;
+  top: 1000;
+  width: 100%;
 }
 
 /* Add a color to the active/current link */
